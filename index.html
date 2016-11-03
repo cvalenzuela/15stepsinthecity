@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>15 steps in the city</title>
+
+  <!--<script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.min.js"></script>-->
+  <!-- P5 -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" src="libraries/p5.dom.min.js"></script>
+  <script language="javascript" src="libraries/p5.sound.min.js"></script>
+  <!-- Seriously -->
+  <script src="libraries/seriously.js"></script>
+  <script src="libraries/effects/seriously.blur.js"></script>
+  <script src="libraries/effects/seriously.chroma.js"></script>
+  <script src="libraries/effects/seriously.pixelate.js"></script>
+  <script src="libraries/effects/seriously.noise.js"></script>
+
+  <!-- Tracking -->
+  <!-- <script src="libraries/tracking-min.js"></script>
+  <script src="libraries/eye-min.js"></script>
+  <script src="libraries/face-min.js"></script>
+  <script src="libraries/mouth-min.js"></script> -->
+
+  <script language="javascript" type="text/javascript" src="js/sketch.js"></script>
+
+
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+
+  <video id="video" width="0" height="0" preload autoplay muted>
+    <source src="assets/videotest.mp4" type="video/mp4">
+  </video>
+
+
+  <div class="container" style="margin-top:40px;">
+    <div class="row">
+        <h3 class="col-md-offset-2 col-md-8 text-center title">15 Steps in the City</h3>
+    </div>
+    <div class="row">
+        <p class="col-md-offset-2 col-md-8 text-center description">A music based blur exercise</p>
+    </div>
+    <div class="row">
+        <p class="col-md-offset-3 col-md-6 text-center by ">Using <a target="_blank" href="https://www.youtube.com/watch?v=r7UKu8s84S0">15 Steps from Radiohead</a> and <a target="_blank" href="https://www.youtube.com/watch?v=7TKutYRN_EM">This Video</a></p>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div id="p5sketch" class="col-md-offset-2 col-md-8 col-xs-4 text-center"></div>
+    </div>
+  </div>
+
+
+</body>
+</html>

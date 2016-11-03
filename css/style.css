@@ -1,0 +1,24 @@
+video{
+  display: none;
+}
+
+body{
+  background: black;
+}
+
+.description{
+  color: #797979;
+}
+
+.title{
+  color: #AAA;
+}
+
+.by{
+ font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+  color:#636363;
+}
